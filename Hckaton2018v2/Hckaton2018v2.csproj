@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -210,10 +211,51 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\animate.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\ionicons.min.css" />
+    <Content Include="Content\css\magnific-popup.css" />
+    <Content Include="Content\css\owl.carousel.min.css" />
+    <Content Include="Content\css\responsive.css" />
+    <Content Include="Content\css\slick.css" />
+    <Content Include="Content\css\themify-icons.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\ionicons.svg" />
+    <Content Include="Content\fonts\themify.svg" />
+    <Content Include="Content\img\bg-img\client-1.jpg" />
+    <Content Include="Content\img\bg-img\client-2.jpg" />
+    <Content Include="Content\img\bg-img\client-3.jpg" />
+    <Content Include="Content\img\bg-img\mobile-1.jpg" />
+    <Content Include="Content\img\bg-img\special.png" />
+    <Content Include="Content\img\bg-img\video.jpg" />
+    <Content Include="Content\img\bg-img\welcome-bg.png" />
+    <Content Include="Content\img\bg-img\welcome-img.png" />
+    <Content Include="Content\img\core-img\favicon.ico" />
+    <Content Include="Content\img\scr-img\app-1.jpg" />
+    <Content Include="Content\img\scr-img\app-2.jpg" />
+    <Content Include="Content\img\scr-img\app-3.jpg" />
+    <Content Include="Content\img\scr-img\app-4.jpg" />
+    <Content Include="Content\img\scr-img\app-5.jpg" />
+    <Content Include="Content\img\team-img\team-1.jpg" />
+    <Content Include="Content\img\team-img\team-2.jpg" />
+    <Content Include="Content\img\team-img\team-3.jpg" />
+    <Content Include="Content\img\team-img\team-4.jpg" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\partidos\independiente.jpg" />
+    <Content Include="images\partidos\morena.png" />
+    <Content Include="images\partidos\movimiento_ciudadano.png" />
+    <Content Include="images\partidos\Nueva_Alianza.png" />
+    <Content Include="images\partidos\PAN.png" />
+    <Content Include="images\partidos\Partido_verde.png" />
+    <Content Include="images\partidos\PES.png" />
+    <Content Include="images\partidos\PRD.png" />
+    <Content Include="images\partidos\PRI.png" />
+    <Content Include="images\partidos\PT.png" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -221,6 +263,17 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\ionicons.eot" />
+    <Content Include="Content\fonts\ionicons.ttf" />
+    <Content Include="Content\fonts\ionicons.woff" />
+    <Content Include="Content\fonts\themify.eot" />
+    <Content Include="Content\fonts\themify.ttf" />
+    <Content Include="Content\fonts\themify.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -229,6 +282,13 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\js\active.js" />
+    <Content Include="Scripts\js\bootstrap.min.js" />
+    <Content Include="Scripts\js\footer-reveal.min.js" />
+    <Content Include="Scripts\js\jquery-2.2.4.min.js" />
+    <Content Include="Scripts\js\plugins.js" />
+    <Content Include="Scripts\js\popper.min.js" />
+    <Content Include="Scripts\js\slick.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -244,8 +304,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
@@ -267,6 +325,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_PartidosPoliticos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

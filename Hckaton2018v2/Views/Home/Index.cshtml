@@ -1,31 +1,32 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Transparencia";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!-- ***** Wellcome Area Start ***** -->
+<section class="wellcome_area clearfix" id="home">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 col-md">
+                <div class="wellcome-heading">
+                    <h2>Transparencia total</h2>
+                    <h3>T</h3>
+                    <p>Plataforma creada con el fin de informar al ciudadano la actividad económica y social de los candidatos políticos.</p>
+                </div>
+                <div class="get-start-area">
+                    <!-- Form Start -->
+                    <form action="#" method="post" class="form-inline">
+                        <input type="submit" class="submit" value="Visita la pagina">
+                    </form>
+                    <!-- Form End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Welcome thumb -->
+    <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+        <img src="img/bg-img/welcome-img.png" alt="">
+    </div>
+</section>
+<!-- ***** Wellcome Area End ***** -->
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+@Html.Partial("_PartidosPoliticos")
